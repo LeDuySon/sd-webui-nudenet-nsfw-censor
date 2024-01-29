@@ -1,3 +1,6 @@
+import sys
+sys.path.append('../../')
+
 import launch
 
 if not launch.is_installed('onnxruntime') and not launch.is_installed('onnxruntime-gpu'):
